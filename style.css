@@ -325,6 +325,9 @@
   .project-grid {
     grid-template-columns: 1fr;
   }
+  .inner-card-hover{
+    margin-left: 1.5rem;
+} 
 }
 
 /* Medium Devices (tablets) */
