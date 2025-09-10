@@ -344,6 +344,9 @@ form {
   .project-grid {
     grid-template-columns: 1fr;
   }
+  .cards{
+    margin-left: 1.5rem;
+} 
 }
 
 /* Medium Devices (tablets) */
