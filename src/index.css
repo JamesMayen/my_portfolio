@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --transition: 300ms;
+  /* Color palette (modernized, preserves original tones) */
+  --bg-900: #0B1120;
+  --card-800: #111827;
+  --primary: #06B6D4;
+  --accent: #14B8A6;
+  --muted: #94A3B8;
+  --text: #F8FAFC;
+}
+
+html,body,#root{
+  height:100%;
+}
+
+/* small helper for smooth theme transitions */
+.theme-transition *{
+  transition: background-color var(--transition), color var(--transition), border-color var(--transition);
+}
+
+/* preserve a few original styles as baseline for migration */
+.container-locked {
+  max-width: 80rem; /* approx Tailwind's 7xl */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem; /* px-6 */
+  padding-right: 1.5rem;
+}
+
+/* New centered container matching design goal */
+.container-centered {
+  max-width: 112rem; /* rough for max-w-7xl */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Glassmorphism card */
+.glass-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  backdrop-filter: blur(8px) saturate(120%);
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 6px 30px rgba(2,6,23,0.6);
+}
+
+.gradient-ring {
+  background: conic-gradient(from 0deg, rgba(6,182,212,0.25), rgba(20,184,166,0.25), rgba(6,182,212,0.25));
+}
