@@ -40,7 +40,7 @@ export default function Hero(){
           <motion.div className="flex justify-center md:justify-end" initial={{scale:0.96}} whileHover={{scale:1.02}} transition={{type:'spring'}}>
             <div className="p-1 rounded-full gradient-ring">
               <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900">
-                <img src="../../Img/Jz.jpg" alt="James" className="w-full h-full object-cover" />
+                <img src="/images/Jz.jpg" alt="James" className="w-full h-full object-cover" />
               </div>
             </div>
           </motion.div>

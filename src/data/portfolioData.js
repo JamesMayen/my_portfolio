@@ -24,7 +24,7 @@ export const profile = {
   tagline:
     'I build technology solutions that empower communities, strengthen digital resilience, and enable youth-led innovation across South Sudan and the region.',
   // Replace with a real headshot at /src/assets/images/portrait.jpg
-  portraitSrc: '/Img/Jz.jpg',
+  portraitSrc: '/images/Jz.jpg',
   // Replace with a real PDF at /src/assets/files/james-mayen-cv.pdf
   cvSrc: '/assets/My-cv/james-mayen-cv.pdf',
   social: {
@@ -156,7 +156,7 @@ export const projects = [
     technologies: ['USSD', "Africa's Talking", 'Backend Integration'],
     github: 'https://github.com/jamesmayen/eduaccess',
     demo: null,
-    image: '/Img/AI.png',
+    image: '/images/AI.png',
   },
   {
     id: 'hospital-booking',
@@ -166,7 +166,7 @@ export const projects = [
     technologies: ['PHP', 'MySQL', 'JavaScript', 'SMS Integration'],
     github: 'https://github.com/jamesmayen/hospital-booking',
     demo: null,
-    image: '/Img/D-S.jpg',
+    image: '/images/D-S.jpg',
   },
   {
     id: 'ai-social-impact',
@@ -176,7 +176,7 @@ export const projects = [
     technologies: ['Python', 'Machine Learning', 'Applied AI'],
     github: 'https://github.com/jamesmayen',
     demo: null,
-    image: '/Img/AI.png',
+    image: '/images/AI.png',
   },
 ];
 
