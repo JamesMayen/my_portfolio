@@ -12,7 +12,6 @@ export default function About() {
       <SectionHeading
         eyebrow="About"
         title="Building skills at the intersection of code and security"
-        description="A short version of how I got here, and where I'm trying to go."
       />
 
       <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-12">

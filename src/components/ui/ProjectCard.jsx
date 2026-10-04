@@ -24,6 +24,13 @@ export default function ProjectCard({ project, delay = 0 }) {
 
       <div className="p-6">
         <h3 className="font-display font-medium text-lg mb-2">{project.title}</h3>
+
+        {project.category && (
+          <span className="inline-block px-2.5 py-0.5 rounded-md bg-signal/10 text-signal text-xs font-mono mb-3">
+            {project.category}
+          </span>
+        )}
+
         <p className="text-ink-dim text-sm leading-relaxed mb-4">{project.description}</p>
 
         <div className="flex flex-wrap gap-2 mb-5">
@@ -48,7 +55,7 @@ export default function ProjectCard({ project, delay = 0 }) {
               <FiGithub size={15} /> Code
             </a>
           )}
-          {project.demo ? (
+          {project.demo && (
             <a
               href={project.demo}
               target="_blank"
@@ -57,10 +64,6 @@ export default function ProjectCard({ project, delay = 0 }) {
             >
               <FiExternalLink size={15} /> Live demo
             </a>
-          ) : (
-            <span className="flex items-center gap-1.5 text-sm text-ink-dim/50 cursor-not-allowed">
-              <FiExternalLink size={15} /> Demo coming soon
-            </span>
           )}
         </div>
       </div>
