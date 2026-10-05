@@ -26,7 +26,7 @@ export const profile = {
   // Cover Image
   portraitSrc: '/images/Jz.jpg',
   // Personal Resume/Cv
-  cvSrc: '/assets/My-cv/james-mayen-cv.pdf',
+  cvSrc: '/assets/My-cv/James Mayen - Cv.pdf',
   social: {
     github: 'https://github.com/jamesmayen',
     linkedin: 'https://www.linkedin.com/in/james-mayen-ab7540253?utm_source=share_via&utm_content=profile&utm_medium=member_android',
@@ -175,7 +175,7 @@ export const projects = [
     category: 'Education Technology',
     github: null,
     demo: null,
-    image: '/images/AI.png',
+    image: '/Img/Edu.jpg',
   },
   {
     id: 'ai-social-good',
@@ -186,7 +186,7 @@ export const projects = [
     category: 'Artificial Intelligence / Social Impact',
     github: null,
     demo: null,
-    image: '/images/AI.png',
+    image: '/Img/AI.png',
   },
   {
     id: 'hospital-appointment',
@@ -195,9 +195,9 @@ export const projects = [
       'A hospital management and appointment booking platform developed to streamline patient appointments, doctor availability, and administrative workflows. The system includes patient and administrator interfaces and supports appointment scheduling and SMS notifications.',
     technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Africa’s Talking SMS API'],
     category: 'Health Technology',
-    github: 'https://github.com/JamesMayen/Medicare',
-    demo: null,
-    image: '/images/D-S.jpg',
+    github: null,
+    demo: 'https://medicare-system.vercel.app/',
+    image: '/Img/D-S.jpg',
   },
   {
     id: 'la-group',
@@ -206,9 +206,9 @@ export const projects = [
       'A modern corporate website developed for LA Group Lending & General Trading Co. Ltd. The website provides a professional digital presence for the organization and presents its services, company information, projects, and business activities through a responsive modern interface.',
     technologies: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'React Router', 'JavaScript'],
     category: 'Web Development',
-    github: 'https://github.com/JamesMayen/la-group',
-    demo: null,
-    image: null,
+    github: null,
+    demo: 'https://la-group.vercel.app/',
+    image: '/Img/LA.jpg',
   },
   {
     id: 'emmanuel-portfolio',
@@ -217,9 +217,9 @@ export const projects = [
       'A professional personal portfolio website developed for Emmanuel, a cybersecurity specialist. The platform is designed to showcase professional experience, technical skills, cybersecurity interests, projects, and career achievements through a modern responsive interface.',
     technologies: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'React Router', 'JavaScript'],
     category: 'Web Development / Cybersecurity',
-    github: 'https://github.com/JamesMayen/emmanuel-portfolio',
-    demo: null,
-    image: null,
+    github: null,
+    demo: 'https://emmanuel-portfolio-ten-mu.vercel.app/',
+    image: '/Img/Emmanuel.jpg',
   },
   {
     id: 'rivonia-cms',
@@ -229,8 +229,8 @@ export const projects = [
     technologies: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JWT Authentication', 'Cloudinary', 'Multer'],
     category: 'Full-Stack Development / CMS',
     github: null,
-    demo: null,
-    image: null,
+    demo: 'https://rivonia-group.onrender.com',
+    image: '/Img/Rivonia.jpg',
   },
   {
     id: 'sauti-salama',
@@ -239,9 +239,9 @@ export const projects = [
       'A civic technology and information platform developed to help communities access trusted information, report incidents, and interact with digital civic services. The project combines web technologies, AI-assisted verification, incident reporting, civic information, alerts, and a USSD-oriented workflow to improve accessibility for users with different levels of internet access. The platform follows a modular architecture with verification, reporting, alerts, civic information, source management, dashboard functionality, and USSD simulation.',
     technologies: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'AI', 'REST APIs', 'USSD concepts'],
     category: 'Civic Technology / AI / Social Impact',
-    github: 'https://github.com/JamesMayen/sauti-salama',
-    demo: null,
-    image: null,
+    github: null,
+    demo: 'https://sauti-salama.onrender.com/',
+    image: '/Img/SautiSalama.jpg',
   },
   {
     id: 'environmental-club',
@@ -251,8 +251,8 @@ export const projects = [
     technologies: ['React', 'Vite', 'Tailwind CSS', 'Motion', 'React Router', 'JavaScript'],
     category: 'Web Development / Environmental Technology',
     github: null,
-    demo: null,
-    image: null,
+    demo: 'https://environmental-club-uoj.onrender.com/',
+    image: '/Img/EC.jpg', 
   },
 ];
 

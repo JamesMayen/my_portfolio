@@ -20,13 +20,14 @@ export default function Button({
   href,
   onClick,
   type = 'button',
+  disabled = false,
   className = '',
   icon,
   target,
   rel,
 }) {
   const classes = `inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium text-sm
-    transition-all duration-300 ${variants[variant]} ${className}`;
+    transition-all duration-300 ${variants[variant]} ${className} ${disabled ? 'opacity-50 cursor-not-allowed' : ''}`;
 
   const content = (
     <>
@@ -39,10 +40,11 @@ export default function Button({
 
   return (
     <MotionTag
-      whileHover={{ y: -2 }}
-      whileTap={{ scale: 0.97 }}
+      whileHover={disabled ? undefined : { y: -2 }}
+      whileTap={disabled ? undefined : { scale: 0.97 }}
       href={as === 'a' ? href : undefined}
       type={as === 'button' ? type : undefined}
+      disabled={as === 'button' ? disabled : undefined}
       onClick={onClick}
       className={classes}
       target={target}
