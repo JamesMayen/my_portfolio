@@ -5,7 +5,7 @@ export const projects = [
     description: 'Web app for students to access online books, integrated with an AI chatbot and offline resources.',
     github: '#',
     demo: '#',
-    image: '/images/AI.png',
+    image: '/Img/Edu.jpg',
     tech: ['React','AI']
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     description: 'Appointment system with AI chat assistant and Email and SMS integration.',
     github: '#',
     demo: '#',
-    image: '/images/D-S.jpg',
+    image: '/Img/AI.png',
     tech: ['React','Node']
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     description: "Event ticketing and user-data protection work for Etix South Sudan.",
     github: '#',
     demo: '#',
-    image: '/images/Sell-with-etix.jpg',
+    image: '/Img/Sell-with-etix.jpg',
     tech: ['Marketing','Security']
   }
 ]

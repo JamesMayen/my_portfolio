@@ -30,10 +30,9 @@ npm run lint        # run ESLint
 ## Project structure
 
 ```
+public/
+  Img/                # portrait and project images, referenced as /Img/filename
 src/
-  assets/
-    images/          # portrait, project screenshots
-    files/            # CV PDF, certificate PDFs
   components/
     layout/            # Navbar, Footer
     sections/          # Hero, About, Skills, Experience, Projects,
@@ -64,17 +63,16 @@ profile info, social links, stats, skill categories and levels, experience timel
 
 ## Adding your real assets
 
-The site currently uses clearly-labeled placeholders so it's obvious what to swap:
+Store portrait and project images in `public/Img/`. Since Vite serves files in `public` from the site root, use root-relative paths beginning with `/Img/`:
 
-1. **Portrait photo** — add your image to `src/assets/images/portrait.jpg`, then in `portfolioData.js` set:
+1. **Portrait photo** — add your image to `public/Img/portrait.jpg`, then in `portfolioData.js` set:
    ```js
-   portraitSrc: '/src/assets/images/portrait.jpg'
+   portraitSrc: '/Img/portrait.jpg'
    ```
-   (or import it at the top of `Hero.jsx` and pass the imported reference for proper bundling)
 
 2. **CV PDF** — place your CV in `public/james-mayen-cv.pdf` (the `cvSrc` in `portfolioData.js` already points there). Anything in `/public` is served as-is.
 
-3. **Project screenshots** — add images under `src/assets/images/` and set each project's `image` field in `portfolioData.js`.
+3. **Project screenshots** — add images under `public/Img/` and set each project's `image` field to a root-relative path such as `/Img/project.jpg`.
 
 4. **Certificates** — place PDFs in `public/certificates/` and set each certification's `fileSrc` field.
 

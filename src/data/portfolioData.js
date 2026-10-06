@@ -24,9 +24,9 @@ export const profile = {
   tagline:
     'I build technology solutions that empower communities, strengthen digital resilience, and enable youth-led innovation across South Sudan and the region.',
   // Cover Image
-  portraitSrc: '/images/Jz.jpg',
+  portraitSrc: '/Img/Jz.jpg',
   // Personal Resume/Cv
-  cvSrc: '/assets/My-cv/James Mayen - Cv.pdf',
+  cvSrc: '/public/My-cv/James Mayen - Cv.pdf',
   social: {
     github: 'https://github.com/jamesmayen',
     linkedin: 'https://www.linkedin.com/in/james-mayen-ab7540253?utm_source=share_via&utm_content=profile&utm_medium=member_android',
@@ -230,7 +230,7 @@ export const projects = [
     category: 'Full-Stack Development / CMS',
     github: null,
     demo: 'https://rivonia-group.onrender.com',
-    image: '/Img/Rivonia.jpg',
+    image: '/Img/Rivonia.JPG',
   },
   {
     id: 'sauti-salama',

@@ -129,7 +129,7 @@ export default function Hero() {
                 <span className="text-xs font-mono text-ink-dim uppercase tracking-wide">
                   Portrait placeholder
                   <br />
-                  Add image at src/assets/images/portrait.jpg
+                  Add image at public/Img/ and set portraitSrc to /Img/filename
                 </span>
               </div>
             )}
